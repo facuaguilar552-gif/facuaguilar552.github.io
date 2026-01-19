@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>6M Wan</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #fff;
+            text-align: center;
+        }
+
+        .container {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        .heart {
+            font-size: 3em;
+            animation: latido 1.5s infinite;
+            margin: 20px 0;
+        }
+
+        @keyframes latido {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 25px 0;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        /* GALERÍA */
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .galeria img,
+        .galeria video {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        button {
+            background: #ff5e78;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1em;
+            color: white;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background: #ff3d5a;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>💕💕💕💕FELIZ 6 MESES💕💕💕💕💕💕</h1>
+    <h2>💕💕💕💕Mi BUBU 💕💕💕💕💕💕💕</h2>
+
+    <div class="heart">❤️</div>
+
+    <div class="card">
+        <p>
+            Nunca fui bueno con las manualidades asi que
+            quise hacer algo distinto para nuestros 6 meses
+            espero te guste, esto es como una chucheria electronica
+        </p>
+    </div>
+
+    <!-- 🔥 SECCIÓN DE FOTOS Y VIDEOS 🔥 -->
+    <div class="card">
+        <h3>Nuestros momentos juntos 📸🎥</h3>
+
+        <div class="galeria">
+            <!-- Fotos -->
+            <img src="01626439-66c8-4c03-8c81-fade0962208e.jpg" alt="Nuestro recuerdo 1">
+            <img src="fda49982-a5b7-4d4f-bb4f-ad1e3cea30d9.jpg" alt="Nuestro recuerdo 2">
+            <img src="IMG_8638.jpg" alt="Nuestro recuerdo 3">
+
+            <!-- Videos -->
+            <video src="1A72641D-6C9F-4926-8BA6-6A37B567308E.mp4" controls></video>
+            <video src="WhatsApp Video 2026-01-18 at 23.25.56.mp4" controls></video>
+            <video src="WhatsApp Video 2026-01-18 at 23.29.03.mp4" controls></video>
+        </div>56
+    </div>
+    <!-- 🔥 FIN DE LA SECCIÓN 🔥 -->
+
+    <div class="card">
+           <h3>Lo que amo de vos</h3>
+        <p>✨ La forma en como me sonrien tus ojos cuando me miras</p>
+        <p>✨ Tu voz en las mañanas y los besos a la hora de despertar</p>
+        <p>✨ Cómo me hacés sentir y la manera tan chistosa en la q simplemente sos</p>
+        <p>✨ Todo lo que compartimos en cada momento especial donde cada palabra es una caricia al corazon del otro</p>
+        <p>✨ el sexo intenso violento y pasional de la vida</p>
+    </div>
+
+    <button onclick="mostrarMensaje()">Tocá acá 💌</button>
+    <p id="mensaje" style="margin-top:20px; font-size:1.2em;"></p>
+
+    <footer>
+        Hecho con amor solo para vos ❤️
+    </footer>
+</div>
+
+<script>
+    function mostrarMensaje() {
+        document.getElementById("mensaje").innerText =
+            "Te amo muchísimo. En serio no puedo creer que ya sean 6 meses juntos, paso volando y casi ni parece que hubieran pasado, gracias por enseñarme mas cada dia de esa personita interior tuya y darme todo su amor incodicional, sos lo mas lindo q me pudo haber pasado desde q te conoci q me siento un poquito mejor todos los dias, el sentir q todo tu amor y darte todo el mio, una experiencia completamente pasional y hermoso. Te amo Wan, gracias por darme de tu tiempo, amor, comprension y la relacion mas hermosa y llena de pasion de la vida. Por otros 6 meses mas mi bubu :3 💖";
+    }
+</script>
+
+</body>
+</html>
